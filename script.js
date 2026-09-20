@@ -45,6 +45,87 @@ filters.forEach(filter => {
   });
 });
 
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const submitButton = document.getElementById("contactSubmit");
+    const formStatus = document.getElementById("formStatus");
+
+    submitButton.disabled = true;
+    submitButton.innerHTML = "Sending...";
+
+    formStatus.textContent = "Please wait...";
+    formStatus.className = "form-status";
+
+    try {
+      // Get all form values
+      const formData = new FormData(contactForm);
+
+      // Convert FormData to JSON
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+
+      const response = await fetch(
+        "https://api.web3forms.com/submit",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: json
+        }
+      );
+
+      const result = await response.json();
+
+      console.log("Web3Forms response:", result);
+
+      if (response.status === 200 && result.success) {
+
+        formStatus.textContent =
+          "Message sent successfully! I'll get back to you soon.";
+
+        formStatus.classList.add("success");
+
+        contactForm.reset();
+
+      } else {
+
+        formStatus.textContent =
+          result.message || "Unable to send your message.";
+
+        formStatus.classList.add("error");
+
+        console.error("Web3Forms error:", result);
+      }
+
+    } catch (error) {
+
+      console.error("Contact form error:", error);
+
+      formStatus.textContent =
+        "Something went wrong. Please try again.";
+
+      formStatus.classList.add("error");
+
+    } finally {
+
+      submitButton.disabled = false;
+
+      submitButton.innerHTML =
+        'Send Message <span>→</span>';
+    }
+  });
+}
+
+
+
+
 document.getElementById("contactForm").addEventListener("submit", (event) => {
   event.preventDefault();
   const status = document.querySelector(".form-status");
