@@ -6,6 +6,52 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f6f3;color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.55}
 a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}
 .container{width:min(1120px,calc(100% - 48px));margin:auto}
+
+
+
+.portrait-frame {
+  width: 100%;
+  max-width: 430px;
+  height: 540px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.portrait-placeholder {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.portrait-placeholder img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+  object-position: center center;
+}
+
+
+
+
+
+
+
+
 .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .nav{height:72px;display:flex;align-items:center;justify-content:space-between}
 .brand{font-weight:800;letter-spacing:-.04em;font-size:17px}.brand span{color:var(--green-dark)}
