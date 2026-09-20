@@ -1,459 +1,1260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Manoj Kumar — Full Stack Developer, Computer Science Undergraduate and aspiring Software Engineer." />
-  <title>Manoj Kumar.</title>
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-/>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Manoj Kumar Lodha — Full Stack Developer, Computer Science Graduate and aspiring Software Engineer."
+  >
+
+  <meta
+    name="theme-color"
+    content="#78ef20"
+  >
+
+  <title>Manoj Kumar Lodha — Full Stack Developer</title>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Devicon -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  >
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
   <header class="site-header">
-    <nav class="nav container">
-      <a class="brand" href="#home">MANOJ<span>.</span></a>
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
+
+    <nav class="nav container" aria-label="Primary navigation">
+
+      <a
+        class="brand"
+        href="#home"
+        aria-label="Manoj Kumar Lodha home"
+      >
+        MANOJ<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
-      <div class="nav-links">
-        <a class="nav-link active" href="#home">Intro</a>
-        <a class="nav-link" href="#about">About</a>
-        <a class="nav-link" href="#works">Works</a>
-        <a class="nav-link" href="#blogs">Blogs</a>
-        <a class="nav-link" href="#contact">Say Hello</a>
+
+      <div
+        class="nav-links"
+        id="primary-navigation"
+      >
+        <a class="nav-link active" href="#home">
+          Intro
+        </a>
+
+        <a class="nav-link" href="#about">
+          About
+        </a>
+
+        <a class="nav-link" href="#works">
+          Works
+        </a>
+
+        <a class="nav-link" href="#skills">
+          Skills
+        </a>
+
+        <a class="nav-link" href="#blogs">
+          Blogs
+        </a>
+
+        <a class="nav-link" href="#contact">
+          Say Hello
+        </a>
       </div>
+
     </nav>
+
   </header>
 
+
   <main>
-    <!-- HOME -->
-<section id="home" class="section hero-section">
-  <div class="hero-rings"></div>
 
-  <div class="container hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow">HELLO EVERYONE</p>
+    <!-- =========================
+         HERO
+    ========================== -->
 
-      <h1>
-        I am Manoj,<br>
-        a full stack developer,<br>
-        computer science<br>
-        undergraduate,<br>
-        &amp; aspiring software<br>
-        engineer.
-      </h1>
+    <section
+      id="home"
+      class="section hero-section"
+    >
 
-      <p class="hero-text">
-        I build scalable web applications, explore the power of AI to solve
-        real world problems, and always keep learning.
-      </p>
+      <div
+        class="hero-rings"
+        aria-hidden="true"
+      ></div>
 
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#works">
-          View My Work <span>→</span>
-        </a>
+      <div class="container hero-grid">
 
-        <a
-          class="text-link"
-          href="/assets/MANOJ KUMAR LODHA.pdf"
-          id="resumeLink"
-        >
-          Download Resume <span>↓</span>
-        </a>
-      </div>
+        <div class="hero-copy">
 
-      <div class="stats stats-four">
-        <div>
-          <strong>2+</strong>
-          <span>Years Experience</span>
+          <p class="eyebrow">
+            HELLO EVERYONE
+          </p>
+
+          <h1>
+            I am Manoj,
+            <br>
+            a full stack developer,
+            <br>
+            computer science
+            <br>
+            graduate,
+            <br>
+            &amp; aspiring software
+            <br>
+            engineer.
+          </h1>
+
+          <p class="hero-text">
+            I build scalable web applications, explore the power of AI
+            to solve real world problems, and always keep learning.
+          </p>
+
+          <div class="hero-actions">
+
+            <a
+              class="btn btn-primary"
+              href="#works"
+            >
+              View My Work
+              <span aria-hidden="true">→</span>
+            </a>
+
+            <a
+              class="text-link"
+              href="/assets/MANOJ KUMAR LODHA.pdf"
+              id="resumeLink"
+              download
+            >
+              Download Resume
+              <span aria-hidden="true">↓</span>
+            </a>
+
+          </div>
+
+          <div class="stats stats-four">
+
+            <div>
+              <strong>2+</strong>
+              <span>Years Experience</span>
+            </div>
+
+            <div>
+              <strong>10+</strong>
+              <span>Projects</span>
+            </div>
+
+            <div>
+              <strong>15+</strong>
+              <span>Technologies</span>
+            </div>
+
+            <div>
+              <strong>∞</strong>
+              <span>Curiosity</span>
+            </div>
+
+          </div>
+
+          <div class="scroll-hint">
+            <span
+              class="mouse"
+              aria-hidden="true"
+            ></span>
+
+            SCROLL DOWN
+          </div>
+
         </div>
 
-        <div>
-          <strong>10+</strong>
-          <span>Projects</span>
-        </div>
 
-        <div>
-          <strong>5+</strong>
-          <span>Technologies</span>
-        </div>
+        <div class="hero-visual">
 
-        <div>
-          <strong>∞</strong>
-          <span>Curiosity</span>
-        </div>
-      </div>
+          <div class="portrait-frame">
 
-      <div class="scroll-hint">
-        <span class="mouse"></span>
-        SCROLL DOWN
-      </div>
-    </div>
+            <div class="portrait-placeholder">
 
-    <div class="hero-visual">
-      <div class="portrait-frame">
-        <div class="portrait-placeholder">
-          <img
-            src="/assets/full.jpeg"
-            alt="Manoj Kumar Lodha"
+              <img
+                src="/assets/full.jpeg"
+                alt="Portrait of Manoj Kumar Lodha"
+                loading="eager"
+                decoding="async"
+              >
+
+            </div>
+
+          </div>
+
+          <div class="vertical-note">
+            BUILD • LEARN • GROW
+          </div>
+
+          <div
+            class="scribble"
+            aria-hidden="true"
           >
-        </div>
-      </div>
-
-      <div class="vertical-note">BUILD • LEARN • GROW</div>
-
-      <div class="scribble">
-        Build<br>
-        Learn<br>
-        Grow <b>→</b>
-      </div>
-    </div>
-  </div>
-</section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container about-grid">
-        <div class="about-copy">
-          <p class="eyebrow">ABOUT ME</p>
-          <h2>Curious, Consistent<br>and always Learning.</h2>
-          <p class="muted">I'm Manoj Kumar, a computer science undergraduate strong interest in full stack development and AI/ML. I love building real world projects, solving problems and learning new technologies. My goal is to create impactful solutions that make life easier and better.</p>
-          <ul class="about-list">
-            <li><span>⌖</span> Based in India</li>
-            <li><span>⌂</span> B.Tech CSE Graduate</li>
-            <li><span>▣</span> Open to Opportunities</li>
-            <li><span>✦</span> Tech Enthusiast</li>
-          </ul>
-        </div>
-
-        <div class="about-photo-wrap">
-          <div class="about-photo portrait-placeholder">
-            
-          <img src="/assets/passport.jpg" alt="">
+            Build
+            <br>
+            Learn
+            <br>
+            Grow <b>→</b>
           </div>
-          <div class="about-sign">Stay<br>Curious.<br>Always!</div>
+
         </div>
 
-        <div class="side-stats">
-          <div><strong>2+</strong><span>Years Experience</span></div>
-          <div><strong>10+</strong><span>Projects Completed</span></div>
-          <div><strong>5+</strong><span>Technologies</span></div>
-          <div><strong>100+</strong><span>Hours of Learning</span></div>
-        </div>
-
-        <div class="journey">
-          <h3>My Journey</h3>
-          <div class="timeline">
-            <article><i></i><b>2022</b><span>Started B.Tech<br>CSE at JUET, Guna</span></article>
-            <article><i></i><b>2023</b><span>Explored Web<br>Development</span></article>
-            <article><i></i><b>2024</b><span>Dived into AI/ML<br>and built projects</span></article>
-            <article><i></i><b>2025</b><span>Internships &amp;<br>Real World Experience</span></article>
-            <article><i></i><b>Future</b><span>Exploring new and deep diving with projects 🚀</span></article>
-          </div>
-        </div>
-
-        <blockquote class="quote">
-          <div class="quote-mark">“</div>
-          <strong>Same Person,<br>Bigger Goals.</strong>
-          <p>I believe in consistent progress, meaningful work, and never stopping the learning journey.<br><b>— MANOJ KUMAR.</b></p>
-        </blockquote>
       </div>
+
     </section>
 
-    <!-- WORKS -->
-    <section id="works" class="section">
-      <div class="container">
-        <p class="eyebrow">MY PROJECTS</p>
-        <h2>Here are some of my favorite projects<br class="desktop-only"> I have done lately. Feel free to check them out.</h2>
 
-        <div class="filters" role="tablist">
-          <button class="filter active" data-filter="all">All</button>
-          <button class="filter" data-filter="web">Web Apps</button>
-          <button class="filter" data-filter="ai">AI/ML</button>
-          <button class="filter" data-filter="mern">MERN Stack</button>
-          <button class="filter" data-filter="frontend">Frontend</button>
-          <button class="filter" data-filter="other">Other</button>
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section
+      id="about"
+      class="section"
+    >
+
+      <div class="container about-grid">
+
+        <div class="about-copy">
+
+          <p class="eyebrow">
+            ABOUT ME
+          </p>
+
+          <h2>
+            Curious, Consistent
+            <br>
+            and always Learning.
+          </h2>
+
+          <p class="muted">
+            I'm Manoj Kumar, a computer science graduate with a strong
+            interest in full stack development and AI/ML. I love building
+            real world projects, solving problems and learning new
+            technologies. My goal is to create impactful solutions that
+            make life easier and better.
+          </p>
+
+          <ul class="about-list">
+
+            <li>
+              <span aria-hidden="true">⌖</span>
+              Based in India
+            </li>
+
+            <li>
+              <span aria-hidden="true">⌂</span>
+              B.Tech CSE Graduate
+            </li>
+
+            <li>
+              <span aria-hidden="true">▣</span>
+              Open to Opportunities
+            </li>
+
+            <li>
+              <span aria-hidden="true">✦</span>
+              Tech Enthusiast
+            </li>
+
+          </ul>
+
         </div>
+
+
+        <div class="about-photo-wrap">
+
+          <div class="about-photo portrait-placeholder">
+
+            <img
+              src="/assets/passport.jpg"
+              alt="Manoj Kumar Lodha"
+              loading="lazy"
+              decoding="async"
+            >
+
+          </div>
+
+          <div
+            class="about-sign"
+            aria-hidden="true"
+          >
+            Stay
+            <br>
+            Curious.
+            <br>
+            Always!
+          </div>
+
+        </div>
+
+
+        <div class="side-stats">
+
+          <div>
+            <strong>2+</strong>
+            <span>Years Experience</span>
+          </div>
+
+          <div>
+            <strong>10+</strong>
+            <span>Projects Completed</span>
+          </div>
+
+          <div>
+            <strong>15+</strong>
+            <span>Technologies</span>
+          </div>
+
+          <div>
+            <strong>100+</strong>
+            <span>Hours of Learning</span>
+          </div>
+
+        </div>
+
+
+        <div class="journey">
+
+          <h3>My Journey</h3>
+
+          <div class="timeline">
+
+            <article>
+              <i aria-hidden="true"></i>
+              <b>2022</b>
+              <span>
+                Started B.Tech
+                <br>
+                CSE at JUET, Guna
+              </span>
+            </article>
+
+            <article>
+              <i aria-hidden="true"></i>
+              <b>2023</b>
+              <span>
+                Explored Web
+                <br>
+                Development
+              </span>
+            </article>
+
+            <article>
+              <i aria-hidden="true"></i>
+              <b>2024</b>
+              <span>
+                Dived into AI/ML
+                <br>
+                and built projects
+              </span>
+            </article>
+
+            <article>
+              <i aria-hidden="true"></i>
+              <b>2025</b>
+              <span>
+                Internships &
+                <br>
+                Real World Experience
+              </span>
+            </article>
+
+            <article>
+              <i aria-hidden="true"></i>
+              <b>Future</b>
+              <span>
+                Exploring new ideas
+                <br>
+                and building projects 🚀
+              </span>
+            </article>
+
+          </div>
+
+        </div>
+
+
+        <blockquote class="quote">
+
+          <div
+            class="quote-mark"
+            aria-hidden="true"
+          >
+            “
+          </div>
+
+          <strong>
+            Same Person,
+            <br>
+            Bigger Goals.
+          </strong>
+
+          <p>
+            I believe in consistent progress, meaningful work,
+            and never stopping the learning journey.
+            <br>
+            <b>— MANOJ KUMAR.</b>
+          </p>
+
+        </blockquote>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+
+    <section
+      id="works"
+      class="section"
+    >
+
+      <div class="container">
+
+        <p class="eyebrow">
+          MY PROJECTS
+        </p>
+
+        <h2>
+          Here are some of my favorite projects
+          <br class="desktop-only">
+          I have done lately. Feel free to check them out.
+        </h2>
+
+
+        <div
+          class="filters"
+          role="tablist"
+          aria-label="Project categories"
+        >
+
+          <button
+            class="filter active"
+            type="button"
+            data-filter="all"
+            role="tab"
+            aria-selected="true"
+          >
+            All
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="web"
+            role="tab"
+            aria-selected="false"
+          >
+            Web Apps
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="ai"
+            role="tab"
+            aria-selected="false"
+          >
+            AI/ML
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="mern"
+            role="tab"
+            aria-selected="false"
+          >
+            MERN Stack
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="frontend"
+            role="tab"
+            aria-selected="false"
+          >
+            Frontend
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="other"
+            role="tab"
+            aria-selected="false"
+          >
+            Other
+          </button>
+
+        </div>
+
 
         <div class="project-grid">
 
-          <article class="project-card" data-category="web">
-            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Travel project preview">
-            <div class="project-body"><span class="tag">MERN Stack</span><h3>Sight-Web Travel Helper</h3><p>A travel helper app to discover and explore beautiful destinations with recommendations and maps.</p>
-              <a href="https://wanderl.onrender.com/" class="green-link">View Project →</a></div>
+          <article
+            class="project-card"
+            data-category="web"
+          >
+
+            <img
+              src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80"
+              alt="Travel project preview"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="project-body">
+
+              <div class="tags">
+                <span class="tag">MERN Stack</span>
+              </div>
+
+              <h3>
+                Sight-Web Travel Helper
+              </h3>
+
+              <p>
+                A travel helper app to discover and explore beautiful
+                destinations with recommendations and maps.
+              </p>
+
+              <a
+                href="https://wanderl.onrender.com/"
+                class="green-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+
+            </div>
+
           </article>
-          <article class="project-card" data-category="ai">
-            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Book recommendation project preview">
-            <div class="project-body"><span class="tag">Python</span><span class="tag">AI/ML</span><h3>Book Recommendation System</h3><p>A machine learning based system that suggests books using collaborative filtering.</p>
-              <a href="https://github.com/kumarmanoj231/Book-Recommendation-System" class="green-link">View Project →</a></div>
+
+
+          <article
+            class="project-card"
+            data-category="ai"
+          >
+
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+              alt="Book recommendation project preview"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="project-body">
+
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">AI/ML</span>
+              </div>
+
+              <h3>
+                Book Recommendation System
+              </h3>
+
+              <p>
+                A machine learning based system that suggests books
+                using collaborative filtering.
+              </p>
+
+              <a
+                href="https://github.com/kumarmanoj231/Book-Recommendation-System"
+                class="green-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+
+            </div>
+
           </article>
-          <article class="project-card" data-category="mern">
-            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80" alt="Streamify project preview">
-            <div class="project-body"><span class="tag">MERN Stack</span><h3>Streamify</h3><p>A real time chat and video calling web app built with WebRTC, Socket.io and MERN stack.</p><a href="https://streamify-0u1w.onrender.com/" class="green-link">View Project →</a></div>
+
+
+          <article
+            class="project-card"
+            data-category="mern"
+          >
+
+            <img
+              src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+              alt="Streamify project preview"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="project-body">
+
+              <div class="tags">
+                <span class="tag">MERN Stack</span>
+              </div>
+
+              <h3>
+                Streamify
+              </h3>
+
+              <p>
+                A real time chat and video calling web app built
+                with WebRTC, Socket.io and MERN stack.
+              </p>
+
+              <a
+                href="https://streamify-0u1w.onrender.com/"
+                class="green-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+
+            </div>
+
           </article>
-          <article class="project-card" data-category="other">
-            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80" alt="Git project preview">
-            <div class="project-body"><span class="tag">JavaScript</span><span class="tag">Shell</span><h3>Build Your Own Git</h3><p>A command line Git implementation to understand version control internals.</p><a href="https://github.com/kumarmanoj231/build-your-own-git" class="green-link">View Project →</a></div>
+
+
+          <article
+            class="project-card"
+            data-category="other"
+          >
+
+            <img
+              src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
+              alt="Git project preview"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="project-body">
+
+              <div class="tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Shell</span>
+              </div>
+
+              <h3>
+                Build Your Own Git
+              </h3>
+
+              <p>
+                A command line Git implementation to understand
+                version control internals.
+              </p>
+
+              <a
+                href="https://github.com/kumarmanoj231/build-your-own-git"
+                class="green-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+
+            </div>
+
           </article>
-          
+
         </div>
+
 
         <div class="wide-link">
-          <span>◉</span> Check out more projects on my GitHub
-          <a href="https://github.com/kumarmanoj231" target="_blank" rel="noreferrer">Visit GitHub →</a>
+
+          <span aria-hidden="true">◉</span>
+
+          <span>
+            Check out more projects on my GitHub
+          </span>
+
+          <a
+            href="https://github.com/kumarmanoj231"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit GitHub →
+          </a>
+
         </div>
+
       </div>
+
     </section>
 
-    <!-- BLOGS -->
-    <section id="blogs" class="section">
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+
+    <section
+      id="skills"
+      class="section skills-section"
+    >
+
       <div class="container">
-        <p class="eyebrow">MY BLOGS</p>
-        <h2>Thoughts, Learnings and Ideas.</h2>
-        <p class="section-lead">I write about technology, development, AI/ML and lessons from my journey.</p>
+
+        <p class="eyebrow">
+          SKILLS &amp; TOOLS
+        </p>
+
+        <h2>
+          Technologies I work with.
+        </h2>
+
+
+        <div class="skill-strip">
+
+          <span class="skill-badge skill-c">
+            <i class="devicon-c-plain" aria-hidden="true"></i>
+            <strong>C</strong>
+          </span>
+
+          <span class="skill-badge skill-cpp">
+            <i class="devicon-cplusplus-plain" aria-hidden="true"></i>
+            <strong>C++</strong>
+          </span>
+
+          <span class="skill-badge skill-java">
+            <i class="devicon-java-plain" aria-hidden="true"></i>
+            <strong>Java</strong>
+          </span>
+
+          <span class="skill-badge skill-python">
+            <i class="devicon-python-plain" aria-hidden="true"></i>
+            <strong>Python</strong>
+          </span>
+
+          <span class="skill-badge skill-html">
+            <i class="devicon-html5-plain" aria-hidden="true"></i>
+            <strong>HTML5</strong>
+          </span>
+
+          <span class="skill-badge skill-css">
+            <i class="devicon-css3-plain" aria-hidden="true"></i>
+            <strong>CSS3</strong>
+          </span>
+
+          <span class="skill-badge skill-js">
+            <i class="devicon-javascript-plain" aria-hidden="true"></i>
+            <strong>JavaScript</strong>
+          </span>
+
+          <span class="skill-badge skill-mongodb">
+            <i class="devicon-mongodb-plain" aria-hidden="true"></i>
+            <strong>MongoDB</strong>
+          </span>
+
+          <span class="skill-badge skill-express">
+            <i class="devicon-express-original" aria-hidden="true"></i>
+            <strong>Express.js</strong>
+          </span>
+
+          <span class="skill-badge skill-react">
+            <i class="devicon-react-original" aria-hidden="true"></i>
+            <strong>React</strong>
+          </span>
+
+          <span class="skill-badge skill-node">
+            <i class="devicon-nodejs-plain" aria-hidden="true"></i>
+            <strong>Node.js</strong>
+          </span>
+
+          <span class="skill-badge skill-next">
+            <i class="devicon-nextjs-plain" aria-hidden="true"></i>
+            <strong>Next.js</strong>
+          </span>
+
+          <span class="skill-badge skill-tailwind">
+            <i class="devicon-tailwindcss-original" aria-hidden="true"></i>
+            <strong>Tailwind</strong>
+          </span>
+
+          <span class="skill-badge skill-postman">
+            <i class="devicon-postman-plain" aria-hidden="true"></i>
+            <strong>Postman</strong>
+          </span>
+
+          <span class="skill-badge skill-vscode">
+            <i class="devicon-vscode-plain" aria-hidden="true"></i>
+            <strong>VS Code</strong>
+          </span>
+
+          <span class="skill-badge skill-git">
+            <i class="devicon-git-plain" aria-hidden="true"></i>
+            <strong>Git</strong>
+          </span>
+
+          <span class="skill-badge skill-github">
+            <i class="devicon-github-original" aria-hidden="true"></i>
+            <strong>GitHub</strong>
+          </span>
+
+          <span class="skill-badge skill-mysql">
+            <i class="devicon-mysql-plain" aria-hidden="true"></i>
+            <strong>MySQL</strong>
+          </span>
+
+          <span class="skill-badge skill-docker">
+            <i class="devicon-docker-plain" aria-hidden="true"></i>
+            <strong>Docker</strong>
+          </span>
+
+          <span class="skill-badge skill-streamlit">
+            <span class="skill-text-icon" aria-hidden="true">S</span>
+            <strong>Streamlit</strong>
+          </span>
+
+        </div>
+
+
+        <div class="highlight-grid">
+
+          <article>
+
+            <i
+              class="highlight-icon"
+              aria-hidden="true"
+            >
+              ♧
+            </i>
+
+            <h3>
+              Problem Solver
+            </h3>
+
+            <p>
+              I enjoy turning complex problems into simple solutions.
+            </p>
+
+          </article>
+
+
+          <article>
+
+            <i
+              class="highlight-icon"
+              aria-hidden="true"
+            >
+              ⌁
+            </i>
+
+            <h3>
+              Fast Learner
+            </h3>
+
+            <p>
+              I adapt quickly and love exploring new technologies.
+            </p>
+
+          </article>
+
+
+          <article>
+
+            <i
+              class="highlight-icon"
+              aria-hidden="true"
+            >
+              ♧
+            </i>
+
+            <h3>
+              Open to Opportunities
+            </h3>
+
+            <p>
+              Looking for internships and exciting collaborations.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         BLOGS
+    ========================== -->
+
+    <section
+      id="blogs"
+      class="section"
+    >
+
+      <div class="container">
+
+        <p class="eyebrow">
+          MY BLOGS
+        </p>
+
+        <h2>
+          Thoughts, Learnings and Ideas.
+        </h2>
+
+        <p class="section-lead">
+          I write about technology, development, AI/ML and lessons
+          from my journey.
+        </p>
+
 
         <div class="blog-grid">
-          <article class="blog-card"><img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*sqSfwWnJ0IZ4Xw9g" alt=""><div class="blog-body"><small>Apr 7, 2025</small><h3>💭 Do Programmers Need to Remember Dates?</h3><p>When I first stepped into the world of software engineering, fresh out of high school..</p><a href="https://medium.com/@kumarmanoj.dev11/do-programmers-need-to-remember-dates-a6449fae8445">Read More →</a><span>2 min read</span></div></article>
+
+          <article class="blog-card">
+
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*sqSfwWnJ0IZ4Xw9g"
+              alt="Programming article"
+              loading="lazy"
+              decoding="async"
+            >
+
+            <div class="blog-body">
+
+              <small>
+                Apr 7, 2025
+              </small>
+
+              <h3>
+                💭 Do Programmers Need to Remember Dates?
+              </h3>
+
+              <p>
+                When I first stepped into the world of software
+                engineering, fresh out of high school...
+              </p>
+
+              <a
+                href="https://medium.com/@kumarmanoj.dev11/do-programmers-need-to-remember-dates-a6449fae8445"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read More →
+              </a>
+
+              <span>
+                2 min read
+              </span>
+
+            </div>
+
+          </article>
+
         </div>
 
-        <div class="wide-link"><span>◉</span> Want to see all posts? <a href="https://medium.com/@kumarmanoj.dev11">View All Blogs →</a></div>
+
+        <div class="wide-link">
+
+          <span aria-hidden="true">◉</span>
+
+          <span>
+            Want to see all posts?
+          </span>
+
+          <a
+            href="https://medium.com/@kumarmanoj.dev11"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View All Blogs →
+          </a>
+
+        </div>
+
       </div>
+
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
-      <div class="contact-rings"></div>
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section
+      id="contact"
+      class="section contact-section"
+    >
+
+      <div
+        class="contact-rings"
+        aria-hidden="true"
+      ></div>
+
       <div class="container">
-        <p class="eyebrow">GET IN TOUCH</p>
-        <h2>I would love to hear from you.</h2>
-        <p class="section-lead">Whether you have a question, a project idea, or just want to say hi — feel free to reach out. I'll try my best to get back to you!</p>
+
+        <p class="eyebrow">
+          GET IN TOUCH
+        </p>
+
+        <h2>
+          I would love to hear from you.
+        </h2>
+
+        <p class="section-lead">
+          Whether you have a question, a project idea, or just want
+          to say hi — feel free to reach out. I'll try my best to
+          get back to you!
+        </p>
+
 
         <div class="contact-grid">
+
           <div class="contact-info">
-            <div><span class="contact-icon">✉</span><p><b>Email</b><br><a href="mailto:lodhamanoj383@gmail.com">lodhamanoj383@gmail.com</a></p></div>
-            <div><span class="contact-icon">⌕</span><p><b>Phone</b><br><a href="tel:+916268893387">+91 62688 93387</a></p></div>
-            <div><span class="contact-icon">⌖</span><p><b>Location</b><br>India</p></div>
-            <div class="socials">
-              <a href="https://www.linkedin.com/in/manojkumarlodha/" aria-label="LinkedIn">in</a>
-              <a href="https://github.com/kumarmanoj231" aria-label="GitHub">◉</a>
-              
+
+            <div>
+
+              <span
+                class="contact-icon"
+                aria-hidden="true"
+              >
+                ✉
+              </span>
+
+              <p>
+                <b>Email</b>
+                <br>
+
+                <a href="mailto:lodhamanoj383@gmail.com">
+                  lodhamanoj383@gmail.com
+                </a>
+              </p>
+
             </div>
+
+
+            <div>
+
+              <span
+                class="contact-icon"
+                aria-hidden="true"
+              >
+                ⌕
+              </span>
+
+              <p>
+                <b>Phone</b>
+                <br>
+
+                <a href="tel:+916268893387">
+                  +91 62688 93387
+                </a>
+              </p>
+
+            </div>
+
+
+            <div>
+
+              <span
+                class="contact-icon"
+                aria-hidden="true"
+              >
+                ⌖
+              </span>
+
+              <p>
+                <b>Location</b>
+                <br>
+                India
+              </p>
+
+            </div>
+
+
+            <div class="socials">
+
+              <a
+                href="https://www.linkedin.com/in/manojkumarlodha/"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                in
+              </a>
+
+              <a
+                href="https://github.com/kumarmanoj231"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ◉
+              </a>
+
+            </div>
+
           </div>
 
 
+          <form
+            class="contact-form"
+            id="contactForm"
+            novalidate
+          >
+
+            <input
+              type="hidden"
+              name="access_key"
+              value="42a1b0ce-8523-4677-836d-8b29efa61022"
+            >
+
+            <input
+              type="hidden"
+              name="subject"
+              value="New Contact Message - Manoj Portfolio"
+            >
+
+            <input
+              type="hidden"
+              name="from_name"
+              value="Manoj Portfolio"
+            >
+
+            <input
+              type="checkbox"
+              name="botcheck"
+              class="botcheck"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            >
 
 
-          <form class="contact-form" id="contactForm">
+            <div class="form-row">
 
-  <input
-    type="hidden"
-    name="access_key"
-    value="42a1b0ce-8523-4677-836d-8b29efa61022"
-  >
+              <label class="sr-only" for="contactName">
+                Your Name
+              </label>
 
-  <input
-    type="hidden"
-    name="subject"
-    value="New Contact Message - Manoj Portfolio"
-  >
+              <input
+                id="contactName"
+                required
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                autocomplete="name"
+              >
 
-  <input
-    type="hidden"
-    name="from_name"
-    value="Manoj Portfolio"
-  >
 
-  <input
-    type="checkbox"
-    name="botcheck"
-    style="display: none;"
-  >
+              <label class="sr-only" for="contactEmail">
+                Your Email
+              </label>
 
-  <div class="form-row">
+              <input
+                id="contactEmail"
+                required
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                autocomplete="email"
+              >
 
-    <input
-      required
-      type="text"
-      name="name"
-      placeholder="Your Name"
-      aria-label="Your Name"
-      autocomplete="name"
-    >
+            </div>
 
-    <input
-      required
-      type="email"
-      name="email"
-      placeholder="Your Email"
-      aria-label="Your Email"
-      autocomplete="email"
-    >
 
-  </div>
+            <label class="sr-only" for="contactMessage">
+              Your Message
+            </label>
 
-  <textarea
-    required
-    name="message"
-    placeholder="Your Message"
-    aria-label="Your Message"
-    rows="6"
-  ></textarea>
+            <textarea
+              id="contactMessage"
+              required
+              name="message"
+              placeholder="Your Message"
+              rows="6"
+            ></textarea>
 
-  <button
-    class="btn btn-primary"
-    type="submit"
-    id="contactSubmit"
-  >
-    Send Message <span>→</span>
-  </button>
 
-  <p
-    class="form-status"
-    id="formStatus"
-    aria-live="polite"
-  ></p>
+            <button
+              class="btn btn-primary"
+              type="submit"
+              id="contactSubmit"
+            >
+              Send Message
+              <span aria-hidden="true">→</span>
+            </button>
 
-</form>
+
+            <p
+              class="form-status"
+              id="formStatus"
+              aria-live="polite"
+            ></p>
+
+          </form>
 
         </div>
 
+
         <footer class="footer">
-          <span>© 2026 Manoj Kumar. All rights reserved.</span>
-          <span>Designed with <b>♥</b> and lots of ☕</span>
+
+          <span>
+            © 2026 Manoj Kumar. All rights reserved.
+          </span>
+
+          <span>
+            Designed with
+            <b aria-label="love">♥</b>
+            and lots of ☕
+          </span>
+
         </footer>
+
       </div>
+
     </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section skills-section">
-  <div class="container">
-
-    <p class="eyebrow">SKILLS &amp; TOOLS</p>
-
-    <h2>Technologies I work with.</h2>
-
-    <div class="skill-strip">
-
-      <span class="skill-badge skill-c">
-        <i class="devicon-c-plain"></i>
-        <strong>C</strong>
-      </span>
-
-      <span class="skill-badge skill-cpp">
-        <i class="devicon-cplusplus-plain"></i>
-        <strong>C++</strong>
-      </span>
-
-      <span class="skill-badge skill-java">
-        <i class="devicon-java-plain"></i>
-        <strong>Java</strong>
-      </span>
-
-      <span class="skill-badge skill-python">
-        <i class="devicon-python-plain"></i>
-        <strong>Python</strong>
-      </span>
-
-      <span class="skill-badge skill-html">
-        <i class="devicon-html5-plain"></i>
-        <strong>HTML5</strong>
-      </span>
-
-      <span class="skill-badge skill-css">
-        <i class="devicon-css3-plain"></i>
-        <strong>CSS3</strong>
-      </span>
-
-      <span class="skill-badge skill-js">
-        <i class="devicon-javascript-plain"></i>
-        <strong>JavaScript</strong>
-      </span>
-
-      <span class="skill-badge skill-mongodb">
-        <i class="devicon-mongodb-plain"></i>
-        <strong>MongoDB</strong>
-      </span>
-
-      <span class="skill-badge skill-express">
-        <i class="devicon-express-original"></i>
-        <strong>Express.js</strong>
-      </span>
-
-      <span class="skill-badge skill-react">
-        <i class="devicon-react-original"></i>
-        <strong>React</strong>
-      </span>
-
-      <span class="skill-badge skill-node">
-        <i class="devicon-nodejs-plain"></i>
-        <strong>Node.js</strong>
-      </span>
-
-      <span class="skill-badge skill-postman">
-        <i class="devicon-postman-plain"></i>
-        <strong>Postman</strong>
-      </span>
-
-      <span class="skill-badge skill-vscode">
-        <i class="devicon-vscode-plain"></i>
-        <strong>VS Code</strong>
-      </span>
-
-      <span class="skill-badge skill-git">
-        <i class="devicon-git-plain"></i>
-        <strong>Git</strong>
-      </span>
-
-      <span class="skill-badge skill-github">
-        <i class="devicon-github-original"></i>
-        <strong>GitHub</strong>
-      </span>
-
-      <span class="skill-badge skill-mysql">
-        <i class="devicon-mysql-plain"></i>
-        <strong>MySQL</strong>
-      </span>
-
-    </div>
-
-    <div class="highlight-grid">
-
-      <article>
-        <i class="highlight-icon">♧</i>
-        <h3>Problem Solver</h3>
-        <p>
-          I enjoy turning complex problems into simple solutions.
-        </p>
-      </article>
-
-      <article>
-        <i class="highlight-icon">⌁</i>
-        <h3>Fast Learner</h3>
-        <p>
-          I adapt quickly and love exploring new technologies.
-        </p>
-      </article>
-
-      <article>
-        <i class="highlight-icon">♧</i>
-        <h3>Open to Opportunities</h3>
-        <p>
-          Looking for internships and exciting collaborations.
-        </p>
-      </article>
-
-    </div>
-
-  </div>
-</section>
   </main>
 
-  <script src="script.js"></script>
+
+  <script src="script.js" defer></script>
+
 </body>
 </html>
