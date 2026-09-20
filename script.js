@@ -52,10 +52,10 @@ document.getElementById("contactForm").addEventListener("submit", (event) => {
   event.target.reset();
 });
 
-document.getElementById("resumeLink").addEventListener("click", (event) => {
-  event.preventDefault();
-  alert("Add your resume PDF as assets/Manoj-Kumar-Resume.pdf and update this link in index.html.");
-});
+// document.getElementById("resumeLink").addEventListener("click", (event) => {
+//   event.preventDefault();
+//   alert("Add your resume PDF as assets/Manoj-Kumar-Resume.pdf and update this link in index.html.");
+// });
 
 // Close mobile menu when clicking outside.
 document.addEventListener("click", (event) => {
