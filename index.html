@@ -241,16 +241,87 @@
             <div><span class="contact-icon">⌕</span><p><b>Phone</b><br><a href="tel:+916268893387">+91 62688 93387</a></p></div>
             <div><span class="contact-icon">⌖</span><p><b>Location</b><br>India</p></div>
             <div class="socials">
-              <a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="GitHub">◉</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Dribbble">◌</a>
+              <a href="https://www.linkedin.com/in/manojkumarlodha/" aria-label="LinkedIn">in</a>
+              <a href="https://github.com/kumarmanoj231" aria-label="GitHub">◉</a>
+              
             </div>
           </div>
 
+
+
+
           <form class="contact-form" id="contactForm">
-            <div class="form-row"><input required type="text" placeholder="Your Name" aria-label="Your Name"><input required type="email" placeholder="Your Email" aria-label="Your Email"></div>
-            <textarea required placeholder="Your Message" aria-label="Your Message"></textarea>
-            <button class="btn btn-primary" type="submit">Send Message <span>→</span></button>
-            <p class="form-status" aria-live="polite"></p>
-          </form>
+
+  <input
+    type="hidden"
+    name="access_key"
+    value="42a1b0ce-8523-4677-836d-8b29efa61022"
+  >
+
+  <input
+    type="hidden"
+    name="subject"
+    value="New Contact Message - Manoj Portfolio"
+  >
+
+  <input
+    type="hidden"
+    name="from_name"
+    value="Manoj Portfolio"
+  >
+
+  <input
+    type="checkbox"
+    name="botcheck"
+    style="display: none;"
+  >
+
+  <div class="form-row">
+
+    <input
+      required
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      aria-label="Your Name"
+      autocomplete="name"
+    >
+
+    <input
+      required
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      aria-label="Your Email"
+      autocomplete="email"
+    >
+
+  </div>
+
+  <textarea
+    required
+    name="message"
+    placeholder="Your Message"
+    aria-label="Your Message"
+    rows="6"
+  ></textarea>
+
+  <button
+    class="btn btn-primary"
+    type="submit"
+    id="contactSubmit"
+  >
+    Send Message <span>→</span>
+  </button>
+
+  <p
+    class="form-status"
+    id="formStatus"
+    aria-live="polite"
+  ></p>
+
+</form>
+
         </div>
 
         <footer class="footer">
