@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manoj Kumar — Full Stack Developer, Computer Science Undergraduate and aspiring Software Engineer." />
+  <title>Manoj Kumar.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">MANOJ<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a class="nav-link active" href="#home">Intro</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#works">Works</a>
+        <a class="nav-link" href="#blogs">Blogs</a>
+        <a class="nav-link" href="#contact">Say Hello</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="section hero-section">
+      <div class="hero-rings"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO EVERYONE</p>
+          <h1>I am Manoj,<br>a full stack developer,<br>computer science<br>undergraduate,<br>&amp; aspiring software<br>engineer.</h1>
+          <p class="hero-text">I build scalable web applications, explore the power of AI to solve real world problems, and always keep learning.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#works">View My Work <span>→</span></a>
+            <a class="text-link" href="#" id="resumeLink">Download Resume <span>↓</span></a>
+          </div>
+          <div class="stats stats-four">
+            <div><strong>2+</strong><span>Years Experience</span></div>
+            <div><strong>10+</strong><span>Projects</span></div>
+            <div><strong>5+</strong><span>Technologies</span></div>
+            <div><strong>∞</strong><span>Curiosity</span></div>
+          </div>
+          <div class="scroll-hint"><span class="mouse"></span> SCROLL DOWN</div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder">
+              <div class="portrait-head"></div>
+              <div class="portrait-body"></div>
+              <span>YOUR<br>PHOTO</span>
+            </div>
+          </div>
+          <div class="vertical-note">BUILD • LEARN • GROW</div>
+          <div class="scribble">Build<br>Learn<br>Grow <b>→</b></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Curious, Consistent<br>and always Learning.</h2>
+          <p class="muted">I'm Manoj Kumar, a computer science undergraduate strong interest in full stack development and AI/ML. I love building real world projects, solving problems and learning new technologies. My goal is to create impactful solutions that make life easier and better.</p>
+          <ul class="about-list">
+            <li><span>⌖</span> Based in India</li>
+            <li><span>⌂</span> B.Tech CSE (Ongoing)</li>
+            <li><span>▣</span> Open to Opportunities</li>
+            <li><span>✦</span> Tech Enthusiast</li>
+          </ul>
+        </div>
+
+        <div class="about-photo-wrap">
+          <div class="about-photo portrait-placeholder">
+            <div class="portrait-head"></div>
+            <div class="portrait-body"></div>
+            <span>YOUR<br>PHOTO</span>
+          </div>
+          <div class="about-sign">Stay<br>Curious.<br>Always!</div>
+        </div>
+
+        <div class="side-stats">
+          <div><strong>2+</strong><span>Years Experience</span></div>
+          <div><strong>10+</strong><span>Projects Completed</span></div>
+          <div><strong>5+</strong><span>Technologies</span></div>
+          <div><strong>100+</strong><span>Hours of Learning</span></div>
+        </div>
+
+        <div class="journey">
+          <h3>My Journey</h3>
+          <div class="timeline">
+            <article><i></i><b>2022</b><span>Started B.Tech<br>CSE at JUET, Guna</span></article>
+            <article><i></i><b>2023</b><span>Explored Web<br>Development</span></article>
+            <article><i></i><b>2024</b><span>Dived into AI/ML<br>and built projects</span></article>
+            <article><i></i><b>2025</b><span>Internships &amp;<br>Real World Experience</span></article>
+            <article><i></i><b>Future</b><span>Build impactful<br>products 🚀</span></article>
+          </div>
+        </div>
+
+        <blockquote class="quote">
+          <div class="quote-mark">“</div>
+          <strong>Same Person,<br>Bigger Goals.</strong>
+          <p>I believe in consistent progress, meaningful work, and never stopping the learning journey.<br><b>— MANOJ KUMAR</b></p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- WORKS -->
+    <section id="works" class="section">
+      <div class="container">
+        <p class="eyebrow">MY PROJECTS</p>
+        <h2>Here are some of my favorite projects<br class="desktop-only"> I have done lately. Feel free to check them out.</h2>
+
+        <div class="filters" role="tablist">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="web">Web Apps</button>
+          <button class="filter" data-filter="ai">AI/ML</button>
+          <button class="filter" data-filter="mern">MERN Stack</button>
+          <button class="filter" data-filter="frontend">Frontend</button>
+          <button class="filter" data-filter="other">Other</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="mern">
+            <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80" alt="Mera Tailor project preview">
+            <div class="project-body"><span class="tag">MERN Stack</span><h3>मेरा Tailor</h3><p>A user friendly platform to connect customers with local tailors. Built with React, Node.js, Express and MongoDB.</p><a href="#" class="green-link">View Project →</a></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Travel project preview">
+            <div class="project-body"><span class="tag">MERN Stack</span><h3>Sight-Web Travel Helper</h3><p>A travel helper app to discover and explore beautiful destinations with recommendations and maps.</p><a href="#" class="green-link">View Project →</a></div>
+          </article>
+          <article class="project-card" data-category="ai">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Book recommendation project preview">
+            <div class="project-body"><span class="tag">Python</span><span class="tag">AI/ML</span><h3>Book Recommendation System</h3><p>A machine learning based system that suggests books using collaborative filtering.</p><a href="#" class="green-link">View Project →</a></div>
+          </article>
+          <article class="project-card" data-category="mern">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80" alt="Streamify project preview">
+            <div class="project-body"><span class="tag">MERN Stack</span><h3>Streamify</h3><p>A real time chat and video calling web app built with WebRTC, Socket.io and MERN stack.</p><a href="#" class="green-link">View Project →</a></div>
+          </article>
+          <article class="project-card" data-category="other">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80" alt="Git project preview">
+            <div class="project-body"><span class="tag">JavaScript</span><span class="tag">Shell</span><h3>Build Your Own Git</h3><p>A command line Git implementation to understand version control internals.</p><a href="#" class="green-link">View Project →</a></div>
+          </article>
+          <article class="project-card" data-category="ai">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Data analysis dashboard preview">
+            <div class="project-body"><span class="tag">Python</span><span class="tag">AI/ML</span><h3>Data Analysis Dashboard</h3><p>Interactive dashboard for data analysis and visualization using Python and Streamlit.</p><a href="#" class="green-link">View Project →</a></div>
+          </article>
+        </div>
+
+        <div class="wide-link">
+          <span>◉</span> Check out more projects on my GitHub
+          <a href="https://github.com/" target="_blank" rel="noreferrer">Visit GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOGS -->
+    <section id="blogs" class="section">
+      <div class="container">
+        <p class="eyebrow">MY BLOGS</p>
+        <h2>Thoughts, Learnings and Ideas.</h2>
+        <p class="section-lead">I write about technology, development, AI/ML and lessons from my journey.</p>
+
+        <div class="blog-grid">
+          <article class="blog-card"><img src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=900&q=80" alt=""><div class="blog-body"><small>Sep 20, 2026</small><h3>How I Set Up My Development Environment for 2026</h3><p>Tools, extensions and settings that make me productive.</p><a href="#">Read More →</a><span>5 min read</span></div></article>
+          <article class="blog-card"><img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=80" alt=""><div class="blog-body"><small>Sep 12, 2026</small><h3>My Journey into Machine Learning</h3><p>What I've learned, resources I used and what's next.</p><a href="#">Read More →</a><span>7 min read</span></div></article>
+          <article class="blog-card"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80" alt=""><div class="blog-body"><small>Aug 28, 2026</small><h3>Why I Love Building Things from Scratch</h3><p>Exploring the joy of creating something new.</p><a href="#">Read More →</a><span>4 min read</span></div></article>
+          <article class="blog-card"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt=""><div class="blog-body"><small>Aug 14, 2026</small><h3>Top 10 VS Code Extensions for Developers</h3><p>Extensions that actually make a difference.</p><a href="#">Read More →</a><span>6 min read</span></div></article>
+          <article class="blog-card"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt=""><div class="blog-body"><small>Jul 30, 2026</small><h3>How I Manage My Time as a Student Developer</h3><p>A simple system that works for me.</p><a href="#">Read More →</a><span>5 min read</span></div></article>
+          <article class="blog-card"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80" alt=""><div class="blog-body"><small>Jul 18, 2026</small><h3>Understanding Git Internals</h3><p>A deep dive into how Git actually works.</p><a href="#">Read More →</a><span>8 min read</span></div></article>
+        </div>
+
+        <div class="wide-link"><span>◉</span> Want to see all posts? <a href="#">View All Blogs →</a></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="contact-rings"></div>
+      <div class="container">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>I would love to hear from you.</h2>
+        <p class="section-lead">Whether you have a question, a project idea, or just want to say hi — feel free to reach out. I'll try my best to get back to you!</p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div><span class="contact-icon">✉</span><p><b>Email</b><br><a href="mailto:lodhamanoj383@gmail.com">lodhamanoj383@gmail.com</a></p></div>
+            <div><span class="contact-icon">⌕</span><p><b>Phone</b><br><a href="tel:+916268893387">+91 62688 93387</a></p></div>
+            <div><span class="contact-icon">⌖</span><p><b>Location</b><br>India</p></div>
+            <div class="socials">
+              <a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="GitHub">◉</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Dribbble">◌</a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row"><input required type="text" placeholder="Your Name" aria-label="Your Name"><input required type="email" placeholder="Your Email" aria-label="Your Email"></div>
+            <textarea required placeholder="Your Message" aria-label="Your Message"></textarea>
+            <button class="btn btn-primary" type="submit">Send Message <span>→</span></button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <footer class="footer">
+          <span>© 2026 Manoj Kumar. All rights reserved.</span>
+          <span>Designed with <b>♥</b> and lots of ☕</span>
+        </footer>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <p class="eyebrow">SKILLS &amp; TOOLS</p>
+        <h2>Technologies I work with.</h2>
+        <div class="skill-strip">
+          <span>⚛ React</span><span>⌘ Node.js</span><span>◆ MongoDB</span><span>ex Express</span><span>🐍 Python</span><span>JS JavaScript</span><span>Next.js</span><span>≈ Tailwind</span><span>◆ Git</span><span>◉ Docker</span><span>MySQL</span><span>Streamlit</span>
+        </div>
+        <div class="highlight-grid">
+          <article><i>♧</i><h3>Problem Solver</h3><p>I enjoy turning complex problems into simple solutions.</p></article>
+          <article><i>⌁</i><h3>Fast Learner</h3><p>I adapt quickly and love exploring new technologies.</p></article>
+          <article><i>♧</i><h3>Open to Opportunities</h3><p>Looking for internships and exciting collaborations.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
